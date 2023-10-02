@@ -32,3 +32,16 @@ p {
 //   background-size: cover;
 //   position: relative;
 // }
+
+::ng-deep {
+  .mat-mdc-tab .mdc-tab__text-label,
+  .mat-mdc-tab-link .mdc-tab__text-label {
+    color: black !important;
+  }
+}
+
+::ng-deep {
+  .mat-mdc-tab-header-pagination-chevron {
+    border-color: black !important;
+  }
+}
